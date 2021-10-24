@@ -1,6 +1,7 @@
-<%@page import="java.util.List"%> 
-<%@page import="br.edu.infnet.model.domain.User"%> 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%-- Document : home Created on : 24 de out de 2021, 01:57:04 Author : alkin
+--%> <%@page import="java.util.List"%> <%@page
+import="br.edu.infnet.model.domain.User"%> <%@ page language="java"
+contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,7 +26,8 @@
             <div class="column is-4">
               <form action="user" method="get" class="box">
                 <div class="content is-centered">
-                  <h5>User <%=name%> was successfully registered!</h5>                </div>
+                  <h5>User <%=name%> was successfully registered!</h5>
+                </div>
                 <div class="field">
                   <button class="button is-info">back</button>
                 </div>
